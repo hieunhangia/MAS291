@@ -9,3 +9,4 @@ C:\Users\HieuNhanGia\Desktop\Learning Material\PRN\MAS291\Question 1\obj\Release
 C:\Users\HieuNhanGia\Desktop\Learning Material\PRN\MAS291\Question 1\obj\Release\net8.0\refint\Question 1.dll
 C:\Users\HieuNhanGia\Desktop\Learning Material\PRN\MAS291\Question 1\obj\Release\net8.0\Question 1.pdb
 C:\Users\HieuNhanGia\Desktop\Learning Material\PRN\MAS291\Question 1\obj\Release\net8.0\ref\Question 1.dll
+C:\Users\HieuNhanGia\Desktop\Learning Material\PRN\MAS291\Question 1\obj\Release\net8.0\Question 1.sourcelink.json

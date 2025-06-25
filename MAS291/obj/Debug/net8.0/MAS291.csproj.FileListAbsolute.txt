@@ -1,38 +1,21 @@
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.exe
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.deps.json
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.runtimeconfig.json
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.dll
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.pdb
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 1.dll
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 1.pdb
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.AssemblyReference.cache
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.AssemblyInfoInputs.cache
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.AssemblyInfo.cs
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.CoreCompileInputs.cache
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.Up2Date
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.dll
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/refint/MAS291.dll
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.pdb
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.genruntimeconfig.cache
-C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/ref/MAS291.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.deps.json
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.runtimeconfig.json
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/MAS291.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 1.dll
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 2.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 1.pdb
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 2.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.AssemblyReference.cache
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.GeneratedMSBuildEditorConfig.editorconfig
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.AssemblyInfoInputs.cache
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.AssemblyInfo.cs
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.CoreCompileInputs.cache
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.sourcelink.json
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.CopyComplete
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/refint/MAS291.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.genruntimeconfig.cache
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/ref/MAS291.dll
-/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 2.dll
-/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 2.pdb
