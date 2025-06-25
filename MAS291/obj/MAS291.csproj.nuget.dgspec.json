@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/MAS291.csproj": {}
+  },
+  "projects": {
+    "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/MAS291.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/MAS291.csproj",
+        "projectName": "MAS291",
+        "projectPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/MAS291.csproj",
+        "packagesPath": "/home/hieunhangia/.nuget/packages/",
+        "outputPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hieunhangia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/Question 1.csproj": {
+                "projectPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/Question 1.csproj"
+              },
+              "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 2/Question 2.csproj": {
+                "projectPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 2/Question 2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/Question 1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/Question 1.csproj",
+        "projectName": "Question 1",
+        "projectPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/Question 1.csproj",
+        "packagesPath": "/home/hieunhangia/.nuget/packages/",
+        "outputPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hieunhangia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 2/Question 2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 2/Question 2.csproj",
+        "projectName": "Question 2",
+        "projectPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 2/Question 2.csproj",
+        "packagesPath": "/home/hieunhangia/.nuget/packages/",
+        "outputPath": "/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hieunhangia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
