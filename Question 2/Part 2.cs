@@ -12,7 +12,7 @@ public abstract class Part2
 
     private static void ActualMeanAndVariance(int n, int loop, out double mean, out double variance)
     {
-        int sumX = 0, sumX2 = 0;
+        double sumX = 0, sumX2 = 0;
         for (var i = 0; i < loop; i++)
         {
             var runs = HillDistance(Part1.RandomPermutation(n));
@@ -20,8 +20,8 @@ public abstract class Part2
             sumX2 += runs * runs;
         }
 
-        mean = 1.0 * sumX / loop;
-        variance = 1.0 * sumX2 / loop - Math.Pow(mean, 2);
+        mean = sumX / loop;
+        variance = sumX2 / loop - Math.Pow(mean, 2);
     }
 
     private static int HillDistance(int a, int b) => a < b ? 2 * (b - a) : a - b;

@@ -4,9 +4,12 @@ public abstract class Part1
 {
     public static void Result(int n, int loop)
     {
-        Console.WriteLine($"ProbDerangement({n}, {loop}) = {ProbDerangement(n, loop)}");
+        Console.WriteLine($"Expected ProbDerangement for all n = {ExpectedMean()}");
+        Console.WriteLine($"ProbDerangement({n}) if loop {loop} times = {ProbDerangement(n, loop)}");
     }
 
+    private static double ExpectedMean() => 1 / Math.E;
+    
     private static double ProbDerangement(int n, int loop)
     {
         var count = 0;

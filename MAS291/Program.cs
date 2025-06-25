@@ -4,6 +4,6 @@ internal abstract class Program
 {
     private static void Main()
     {
-        Question_2.Part2.Result(5,10000);
+        Question_2.Part2.Result(15,800000);
     }
 }
