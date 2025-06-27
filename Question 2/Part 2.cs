@@ -5,9 +5,9 @@ public abstract class Part2
     public static void Result(int n, int loop)
     {
         ActualMeanAndVariance(n, loop, out var mean, out var variance);
-        Console.WriteLine($"With n = {n} and loop {loop} times");
-        Console.WriteLine($"Approximate Mean of X = {mean}");
-        Console.WriteLine($"Approximate Variance of X = {variance}");
+        Console.WriteLine($"With n = {n} and {loop} loops");
+        Console.WriteLine($"Mean of X ≈ {mean}");
+        Console.WriteLine($"Variance of X ≈ {variance}");
     }
 
     private static void ActualMeanAndVariance(int n, int loop, out double mean, out double variance)
@@ -15,9 +15,9 @@ public abstract class Part2
         double sumX = 0, sumX2 = 0;
         for (var i = 0; i < loop; i++)
         {
-            var runs = HillDistance(Part1.RandomPermutation(n));
-            sumX += runs;
-            sumX2 += runs * runs;
+            var hd = HillDistance(Part1.RandomPermutation(n));
+            sumX += hd;
+            sumX2 += hd * hd;
         }
 
         mean = sumX / loop;

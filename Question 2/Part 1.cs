@@ -5,7 +5,7 @@ public abstract class Part1
     public static void Result(int n, int loop)
     {
         Console.WriteLine($"Expected ProbDerangement = {ExpectedMean()}");
-        Console.WriteLine($"Actual ProbDerangement({n}) if loop {loop} times = {ProbDerangement(n, loop)}");
+        Console.WriteLine($"Actual ProbDerangement({n}) with {loop} loops = {ProbDerangement(n, loop)}");
     }
 
     private static double ExpectedMean() => 1 / Math.E;
