@@ -4,19 +4,11 @@ internal abstract class Program
 {
     private static void Main()
     {
-        var l = Question_2.Part1.RandomPermutation(20);
-        Console.WriteLine("List");
-        foreach (var x in l)
+        for (var i = 0; i < 10; i++)
         {
-            Console.Write($"{x} ");
-        }
-        Console.WriteLine();
-        Console.WriteLine("Sublist");
-        foreach (var x in Question_2.Part3.LengthOfLIS(l))
-        {
-            foreach (var y in x)
+            foreach (var j in Question_2.Part1.RandomPermutation(20))
             {
-                Console.Write($"{y} ");
+                Console.Write(j+" ");
             }
             Console.WriteLine();
         }

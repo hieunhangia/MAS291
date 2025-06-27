@@ -5,6 +5,10 @@
       "Question 1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Question 2": "1.0.0",
+          "Question 3": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Question 1.dll": {}
         },
@@ -21,6 +25,16 @@
         "runtime": {
           "bin/placeholder/Question 2.dll": {}
         }
+      },
+      "Question 3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Question 3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Question 3.dll": {}
+        }
       }
     }
   },
@@ -34,6 +48,11 @@
       "type": "project",
       "path": "../Question 2/Question 2.csproj",
       "msbuildProject": "../Question 2/Question 2.csproj"
+    },
+    "Question 3/1.0.0": {
+      "type": "project",
+      "path": "../Question 3/Question 3.csproj",
+      "msbuildProject": "../Question 3/Question 3.csproj"
     }
   },
   "projectFileDependencyGroups": {

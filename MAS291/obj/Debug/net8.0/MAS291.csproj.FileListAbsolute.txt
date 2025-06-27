@@ -19,3 +19,5 @@
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.genruntimeconfig.cache
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/ref/MAS291.dll
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 3.dll
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/bin/Debug/net8.0/Question 3.pdb
