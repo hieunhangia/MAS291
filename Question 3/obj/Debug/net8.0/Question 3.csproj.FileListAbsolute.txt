@@ -20,3 +20,5 @@
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 3/obj/Debug/net8.0/refint/Question 3.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 3/obj/Debug/net8.0/Question 3.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 3/obj/Debug/net8.0/ref/Question 3.dll
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 3/bin/Debug/net8.0/Question 3.deps.json
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 3/obj/Debug/net8.0/ref/Question 3.dll

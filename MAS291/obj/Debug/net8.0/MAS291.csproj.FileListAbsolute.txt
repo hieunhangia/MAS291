@@ -13,7 +13,6 @@
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.AssemblyInfo.cs
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.CoreCompileInputs.cache
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.sourcelink.json
-/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.CopyComplete
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/refint/MAS291.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.pdb
@@ -44,3 +43,4 @@
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/MAS291/obj/Debug/net8.0/MAS291.csproj.Up2Date
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/MAS291/obj/Debug/net8.0/MAS291.genruntimeconfig.cache
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/MAS291/obj/Debug/net8.0/ref/MAS291.dll
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/MAS291/obj/Debug/net8.0/MAS291.csproj.Up2Date

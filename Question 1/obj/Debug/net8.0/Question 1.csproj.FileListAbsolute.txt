@@ -27,7 +27,6 @@ C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/obj/Debug/n
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/bin/Debug/net8.0/Question 2.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/bin/Debug/net8.0/Question 3.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/obj/Debug/net8.0/Question 1.csproj.AssemblyReference.cache
-/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/obj/Debug/net8.0/Question 1.csproj.CopyComplete
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 1/bin/Debug/net8.0/Question 1.deps.json
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 1/bin/Debug/net8.0/Question 1.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 1/bin/Debug/net8.0/Question 1.pdb
@@ -46,3 +45,4 @@ C:/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/obj/Debug/n
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 1/obj/Debug/net8.0/refint/Question 1.dll
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 1/obj/Debug/net8.0/Question 1.pdb
 /mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS2912/Question 1/obj/Debug/net8.0/ref/Question 1.dll
+/mnt/Windows/Users/HieuNhanGia/Desktop/Learning Material/PRN/MAS291/Question 1/obj/Debug/net8.0/Question 1.csproj.Up2Date
