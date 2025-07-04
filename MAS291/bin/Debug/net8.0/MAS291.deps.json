@@ -17,17 +17,26 @@
           "Question 3": "1.0.0"
         },
         "runtime": {
-          "Question 1.dll": {}
+          "Question 1.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Question 2/1.0.0": {
         "runtime": {
-          "Question 2.dll": {}
+          "Question 2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Question 3/1.0.0": {
         "runtime": {
-          "Question 3.dll": {}
+          "Question 3.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

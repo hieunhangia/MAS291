@@ -8,12 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Question 1\Question 1.csproj">
-        <Private>True</Private>
-      </ProjectReference>
-      <ProjectReference Include="..\Question 2\Question 2.csproj">
-        <Private>True</Private>
-      </ProjectReference>
+      <ProjectReference Include="..\Question 1\Question 1.csproj" />
     </ItemGroup>
 
 </Project>
