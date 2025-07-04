@@ -4,7 +4,7 @@ internal abstract class Program
 {
     private static void Main()
     {
-        Question_3.Part1.Result();
+        
     }
 
 }
