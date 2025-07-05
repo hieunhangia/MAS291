@@ -4,7 +4,7 @@ public abstract class Part2
 {
     public static void Result(in int loop)
     {
-        Console.WriteLine($"Expected Mean of R = 0.5");
+        Console.WriteLine("Expected Mean of R = 0.5");
         Console.WriteLine($"Actual Mean of R with {loop} tries = {ActualMean(loop)}");
     }
 
@@ -13,9 +13,7 @@ public abstract class Part2
         var rd = new Random();
         double sumX = 0;
         for (var i = 0; i < loop; i++)
-        {
             sumX += PositionOfFirstTimeBallReturnToOx(rd.NextDouble() * 0.5, rd.NextDouble() * Math.PI);
-        }
 
         return sumX / loop;
     }
@@ -41,8 +39,7 @@ public abstract class Part2
 
     private static double ComputeAngleOfNextReflectWithOx
         (in double shootAngle, in double reflectAngle, in string contactRail, in string oldContactRail)
-    {
-        return oldContactRail switch
+        => oldContactRail switch
         {
             "OA" => contactRail switch
             {
@@ -72,5 +69,4 @@ public abstract class Part2
                     : 3 * Math.PI / 2 + reflectAngle
             }
         };
-    }
 }
