@@ -64,7 +64,7 @@ public abstract class Part2
             _ => contactRail switch //AB
             {
                 "BC" => reflectAngle + Math.PI,
-                _ => shootAngle < Math.PI
+                _ => shootAngle < Math.PI //CO
                     ? Math.PI / 2 - reflectAngle
                     : 3 * Math.PI / 2 + reflectAngle
             }
