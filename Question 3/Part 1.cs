@@ -51,7 +51,7 @@ public abstract class Part1
         return angleOfTwoVector > Math.PI / 2 ? Math.PI - angleOfTwoVector : angleOfTwoVector;
     }
 
-    private static string RailOfFirstContact(in double xBall, in double yBall, in double angleBall)
+    public static string RailOfFirstContact(in double xBall, in double yBall, in double angleBall)
     {
         ComputeAngleOfBallAndVertexOfSquareWithOx
             (xBall, yBall, out var o, out var a, out var b, out var c);
