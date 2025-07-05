@@ -37,7 +37,7 @@ public abstract class Part2
         }
     }
 
-    private static double ComputeAngleOfNextReflectWithOx
+    public static double ComputeAngleOfNextReflectWithOx
         (in double shootAngle, in double reflectAngle, in string contactRail, in string oldContactRail)
         => oldContactRail switch
         {

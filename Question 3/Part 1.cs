@@ -2,7 +2,7 @@ namespace Question_3;
 
 public abstract class Part1
 {
-    public static void Result(in double a, in double b, in double x) 
+    public static void Result(in double a, in double b, in double x)
         => Console.WriteLine($"Output of firstContact({a},{b},{x}) is {FirstContact(a, b, x)}");
 
     private static string FirstContact(in double a, in double b, in double x)
@@ -13,7 +13,7 @@ public abstract class Part1
             out var angleFirstContactPoint);
         return $"({xFirstContactPoint},{yFirstContactPoint},{angleFirstContactPoint})";
     }
-    
+
     public static void FirstContact(in double xBall, in double yBall, in double angleBall,
         out double xFirstContactPoint, out double yFirstContactPoint, out double angleFirstContact)
     {
@@ -44,7 +44,7 @@ public abstract class Part1
         }
     }
 
-    private static double ComputeReflectAngle
+    public static double ComputeReflectAngle
         (in double xVectorA, in double yVectorA, in double xVectorB, in double yVectorB)
     {
         var angleOfTwoVector = ComputeAngleOfTwoVector(xVectorA, yVectorA, xVectorB, yVectorB);
@@ -65,7 +65,7 @@ public abstract class Part1
     }
 
     private static void ComputeAngleOfBallAndVertexOfSquareWithOx
-    (in double xBall, in double yBall, out double o, out double a, out double b, out double c)
+        (in double xBall, in double yBall, out double o, out double a, out double b, out double c)
     {
         o = 2 * Math.PI - ComputeAngleOfBallAndVertexWithOx(xBall, yBall, 0, 0);
         a = 2 * Math.PI - ComputeAngleOfBallAndVertexWithOx(xBall, yBall, 1, 0);
@@ -73,12 +73,12 @@ public abstract class Part1
         c = ComputeAngleOfBallAndVertexWithOx(xBall, yBall, 0, 1);
     }
 
-    private static double ComputeAngleOfBallAndVertexWithOx
-        (in double xBall, in double yBall, in int xVertex, in int yVertex) 
+    public static double ComputeAngleOfBallAndVertexWithOx
+        (in double xBall, in double yBall, in double xVertex, in double yVertex)
         => ComputeAngleOfTwoVector(xVertex - xBall, yVertex - yBall, 1, 0);
 
     private static double ComputeAngleOfTwoVector
-        (in double xVectorA, in double yVectorA, in double xVectorB, in double yVectorB) 
+        (in double xVectorA, in double yVectorA, in double xVectorB, in double yVectorB)
         => Math.Acos(
             (xVectorA * xVectorB + yVectorA * yVectorB)
             /
