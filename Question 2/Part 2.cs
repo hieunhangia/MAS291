@@ -2,7 +2,7 @@ namespace Question_2;
 
 public abstract class Part2
 {
-    public static void Result(int n, int loop)
+    public static void Result(in int n, in int loop)
     {
         ActualMeanAndVariance(n, loop, out var mean, out var variance);
         Console.WriteLine($"With n = {n} and {loop} loops");
@@ -10,7 +10,7 @@ public abstract class Part2
         Console.WriteLine($"Variance of X ≈ {variance}");
     }
 
-    private static void ActualMeanAndVariance(int n, int loop, out double mean, out double variance)
+    private static void ActualMeanAndVariance(in int n, in int loop, out double mean, out double variance)
     {
         double sumX = 0, sumX2 = 0;
         for (var i = 0; i < loop; i++)
@@ -24,9 +24,10 @@ public abstract class Part2
         variance = sumX2 / loop - Math.Pow(mean, 2);
     }
 
-    private static int HillDistance(int a, int b) => a < b ? 2 * (b - a) : a - b;
+    private static int HillDistance(in int a, in int b) 
+        => a < b ? 2 * (b - a) : a - b;
 
-    private static int HillDistance(List<int> a)
+    private static int HillDistance(in List<int> a)
     {
         var sum = 0;
         for (var i = 0; i < a.Count - 1; i++) sum += HillDistance(a[i], a[i + 1]);

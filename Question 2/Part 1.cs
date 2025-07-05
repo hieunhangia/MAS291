@@ -2,15 +2,13 @@ namespace Question_2;
 
 public abstract class Part1
 {
-    public static void Result(int n, int loop)
+    public static void Result(in int n, in int loop)
     {
-        Console.WriteLine($"Expected ProbDerangement = {ExpectedMean()}");
+        Console.WriteLine($"Expected ProbDerangement = {1 / Math.E}");
         Console.WriteLine($"Actual ProbDerangement({n}) with {loop} loops = {ProbDerangement(n, loop)}");
     }
 
-    private static double ExpectedMean() => 1 / Math.E;
-    
-    private static double ProbDerangement(int n, int loop)
+    private static double ProbDerangement(in int n, in int loop)
     {
         var count = 0;
         for (var i = 0; i < loop; i++)
@@ -30,7 +28,7 @@ public abstract class Part1
         return 1.0 * count / loop;
     }
 
-    public static List<int> RandomPermutation(int n)
+    public static List<int> RandomPermutation(in int n)
     {
         var array = new List<int>();
         var rd = new Random();

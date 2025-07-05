@@ -1,42 +1,41 @@
-namespace Question_1
+namespace Question_1;
+
+public abstract class Part4
 {
-    public abstract class Part4
+    public static void Result(in double p, in int loop)
     {
-        public static void Result(double p, int loop)
+        Console.WriteLine($"With N = {loop} and p = {p}");
+        Console.WriteLine($"Expected Mean of Variables = {ExpectedMean(p)}");
+        try
         {
-            Console.WriteLine($"With N = {loop} and p = {p}");
-            Console.WriteLine($"Expected Mean of Variables = {ExpectedMean(p)}");
-            try
-            {
-                Console.WriteLine($"Actual Mean of Variables = {ActualMean(p, loop)}");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            Console.WriteLine($"Actual Mean of Variables = {ActualMean(p, loop)}");
         }
-
-        private static double ExpectedMean(double p) => 1 / (2 * p - 1);
-
-        private static double ActualMean(double p, int loop)
+        catch (Exception e)
         {
-            double sum = 0;
-            for (var i = 0; i < loop; i++) sum += NumberOfTossUntilHeadExceedTail(p);
-            return sum / loop;
+            Console.WriteLine(e.Message);
         }
+    }
 
-        private static long NumberOfTossUntilHeadExceedTail(double p)
+    private static double ExpectedMean(in double p) => 1 / (2 * p - 1);
+
+    private static double ActualMean(in double p, in int loop)
+    {
+        double sum = 0;
+        for (var i = 0; i < loop; i++) sum += NumberOfTossUntilHeadExceedTail(p);
+        return sum / loop;
+    }
+
+    private static long NumberOfTossUntilHeadExceedTail(in double p)
+    {
+        var rd = new Random();
+        long head = 0, tail = 0, sum = 0;
+        do
         {
-            var rd = new Random();
-            long head = 0, tail = 0, sum = 0;
-            do
-            {
-                if (rd.NextDouble() < p) head++;
-                else tail++;
-                if (sum++ > 1000000000) throw new Exception("It seems this function never finishes.");
-            } while (head <= tail);
+            if (rd.NextDouble() < p) head++;
+            else tail++;
+            if (sum++ > 1000000000) throw new Exception("It seems this function never finishes.");
+        } while (head <= tail);
 
-            return sum;
-        }
+        return sum;
     }
 }

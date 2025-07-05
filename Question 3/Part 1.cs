@@ -2,15 +2,19 @@ namespace Question_3;
 
 public abstract class Part1
 {
-    public static void Result(double a, double b, double x)
+    public static void Result(in double a, in double b, in double x) 
+        => Console.WriteLine($"Output of firstContact({a},{b},{x}) is {FirstContact(a, b, x)}");
+
+    private static string FirstContact(in double a, in double b, in double x)
     {
         FirstContact(a, b, x,
-            out var xFirstContactPoint, out var yFirstContactPoint, out var angleFirstContactPoint);
-        Console.WriteLine($"Output of firstContact({a},{b},{x})" +
-                          $" = ({xFirstContactPoint},{yFirstContactPoint},{angleFirstContactPoint})");
+            out var xFirstContactPoint,
+            out var yFirstContactPoint,
+            out var angleFirstContactPoint);
+        return $"({xFirstContactPoint},{yFirstContactPoint},{angleFirstContactPoint})";
     }
-
-    public static void FirstContact(double xBall, double yBall, double angleBall,
+    
+    public static void FirstContact(in double xBall, in double yBall, in double angleBall,
         out double xFirstContactPoint, out double yFirstContactPoint, out double angleFirstContact)
     {
         var a = Math.Tan(angleBall);
@@ -41,13 +45,13 @@ public abstract class Part1
     }
 
     private static double ComputeReflectAngle
-        (double xVectorA, double yVectorA, double xVectorB, double yVectorB)
+        (in double xVectorA, in double yVectorA, in double xVectorB, in double yVectorB)
     {
         var angleOfTwoVector = ComputeAngleOfTwoVector(xVectorA, yVectorA, xVectorB, yVectorB);
         return angleOfTwoVector > Math.PI / 2 ? Math.PI - angleOfTwoVector : angleOfTwoVector;
     }
 
-    private static string RailOfFirstContact(double xBall, double yBall, double angleBall)
+    private static string RailOfFirstContact(in double xBall, in double yBall, in double angleBall)
     {
         ComputeAngleOfBallAndVertexOfSquareWithOx
             (xBall, yBall, out var o, out var a, out var b, out var c);
@@ -60,8 +64,8 @@ public abstract class Part1
         return "AB";
     }
 
-    private static void ComputeAngleOfBallAndVertexOfSquareWithOx(double xBall, double yBall,
-        out double o, out double a, out double b, out double c)
+    private static void ComputeAngleOfBallAndVertexOfSquareWithOx
+    (in double xBall, in double yBall, out double o, out double a, out double b, out double c)
     {
         o = 2 * Math.PI - ComputeAngleOfBallAndVertexWithOx(xBall, yBall, 0, 0);
         a = 2 * Math.PI - ComputeAngleOfBallAndVertexWithOx(xBall, yBall, 1, 0);
@@ -70,11 +74,11 @@ public abstract class Part1
     }
 
     private static double ComputeAngleOfBallAndVertexWithOx
-        (double xBall, double yBall, int xVertex, int yVertex)
+        (in double xBall, in double yBall, in int xVertex, in int yVertex) 
         => ComputeAngleOfTwoVector(xVertex - xBall, yVertex - yBall, 1, 0);
 
     private static double ComputeAngleOfTwoVector
-        (double xVectorA, double yVectorA, double xVectorB, double yVectorB)
+        (in double xVectorA, in double yVectorA, in double xVectorB, in double yVectorB) 
         => Math.Acos(
             (xVectorA * xVectorB + yVectorA * yVectorB)
             /
