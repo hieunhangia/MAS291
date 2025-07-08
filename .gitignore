@@ -15,7 +15,8 @@ project.assets.json
 .idea/
 *.sln.iml
 
-## ========== VS Code (nếu có) ==========
+## ========== VS / VS Code ==========
+.vs
 .vscode/
 
 ## ========== NuGet ==========
