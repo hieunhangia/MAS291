@@ -2,11 +2,12 @@ namespace Question_2;
 
 public abstract class Part1
 {
-    public static void Result(in int n, in int loop)
-    {
-        Console.WriteLine($"Expected ProbDerangement = {1 / Math.E}");
-        Console.WriteLine($"Actual ProbDerangement({n}) with {loop} loops = {ProbDerangement(n, loop)}");
-    }
+    public static string Result(in int n, in int loop)
+        => $"""
+            Expected ProbDerangement = {1 / Math.E}
+            Actual ProbDerangement({n}) = {ProbDerangement(n, loop)}
+            """;
+    
 
     private static double ProbDerangement(in int n, in int loop)
     {

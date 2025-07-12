@@ -2,12 +2,11 @@ namespace Question_1;
 
 public abstract class Part2
 {
-    public static void Result(in double p, in int n)
-    {
-        Console.WriteLine($"Relative frequency of H with N = {n} and p = {p}");
-        Console.WriteLine($"Expected result = p = {p}");
-        Console.WriteLine($"Actual result = {Toss(p, n)}");
-    }
+    public static string Result(in double p, in int n)
+    => $"""
+        Expected result = p = {p}
+        Actual result = {Toss(p, n)}
+        """;
 
     private static double Toss(in double p, in int n)
     {

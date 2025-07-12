@@ -2,18 +2,18 @@ namespace Question_1;
 
 public abstract class Part4
 {
-    public static void Result(in double p, in int loop)
+    public static string Result(in double p, in int loop)
     {
-        Console.WriteLine($"With N = {loop} and p = {p}");
-        Console.WriteLine($"Expected Mean of Variables = {ExpectedMean(p)}");
+        var result = $"Expected Mean of Variables = {ExpectedMean(p)}";
         try
         {
-            Console.WriteLine($"Actual Mean of Variables = {ActualMean(p, loop)}");
+            result += $"\nActual Mean of Variables = {ActualMean(p, loop)}";
         }
         catch (Exception e)
         {
-            Console.WriteLine(e.Message);
+            return e.Message;
         }
+        return result;
     }
 
     private static double ExpectedMean(in double p) => 1 / (2 * p - 1);

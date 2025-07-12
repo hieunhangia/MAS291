@@ -4,10 +4,10 @@ public abstract class Part2Bonus
 {
     private static double l;
 
-    public static void Result(in int loop, in double l)
+    public static string Result(in int loop, in double l)
     {
         Part2Bonus.l = l;
-        Console.WriteLine($"Actual Mean of R with {loop} tries = {ActualMean(loop)}");
+        return $"Actual Mean of R = {ActualMean(loop)}";
     }
 
     private static double ActualMean(in int loop)

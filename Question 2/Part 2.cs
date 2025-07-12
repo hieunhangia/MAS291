@@ -2,12 +2,13 @@ namespace Question_2;
 
 public abstract class Part2
 {
-    public static void Result(in int n, in int loop)
+    public static string Result(in int n, in int loop)
     {
         ActualMeanAndVariance(n, loop, out var mean, out var variance);
-        Console.WriteLine($"With n = {n} and {loop} loops");
-        Console.WriteLine($"Mean of X ≈ {mean}");
-        Console.WriteLine($"Variance of X ≈ {variance}");
+        return $"""
+                Mean of X ≈ {mean}
+                Variance of X ≈ {variance}
+                """;
     }
 
     private static void ActualMeanAndVariance(in int n, in int loop, out double mean, out double variance)

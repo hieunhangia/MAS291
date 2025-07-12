@@ -2,11 +2,11 @@ namespace Question_3;
 
 public abstract class Part2
 {
-    public static void Result(in int loop)
-    {
-        Console.WriteLine("Expected Mean of R = 0.5");
-        Console.WriteLine($"Actual Mean of R with {loop} tries = {ActualMean(loop)}");
-    }
+    public static string Result(in int loop)
+        => $"""
+            Expected Mean of R = 0.5
+            Actual Mean of R = {ActualMean(loop)}
+            """;
 
     private static double ActualMean(in int loop)
     {

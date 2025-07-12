@@ -2,15 +2,16 @@ namespace Question_1;
 
 public abstract class Part3
 {
-    public static void Result(in double p, in int n, in int loop)
+    public static string Result(in double p, in int n, in int loop)
     {
         ActualMeanAndVariance(p, n, loop, out var mean, out var variance);
-        Console.WriteLine($"With N = {loop}");
-        Console.WriteLine($"Expected Mean of Runs({p}, {n}) = {ExpectedMean(p, n)}");
-        Console.WriteLine($"Actual Mean of Runs({p}, {n}) = {mean}");
-        Console.WriteLine("--------------");
-        Console.WriteLine($"Expected Variance of Runs({p}, {n}) = {ExpectedVariance(p, n)}");
-        Console.WriteLine($"Actual Variance of Runs({p}, {n}) = {variance}");
+        return $"""
+               Expected Mean of Runs({p}, {n}) = {ExpectedMean(p, n)}
+               Actual Mean of Runs({p}, {n}) = {mean}
+               --------------
+               Expected Variance of Runs({p}, {n}) = {ExpectedVariance(p, n)}
+               Actual Variance of Runs({p}, {n}) = {variance}
+               """;
     }
 
     private static double ExpectedMean(in double p, in int n)

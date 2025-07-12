@@ -4,12 +4,13 @@ namespace Question_1;
 
 public abstract class Part5
 {
-    public static void Result(in int a, in int b, in int loop)
-    {
-        Console.WriteLine($"|S({a},{b})| = {S(a, b)}");
-        Console.WriteLine($"Expected Mean of RunA = {ExpectedMeanRunA(a, b)}");
-        Console.WriteLine($"Actual Mean of RunA = {ActualMeanRunA(a, b, loop)}");
-    }
+    public static string Result(in int a, in int b, in int loop)
+        => $"""
+            |S({a},{b})| = {S(a, b)}
+            Expected Mean of RunA = {ExpectedMeanRunA(a, b)}
+            Actual Mean of RunA = {ActualMeanRunA(a, b, loop)}
+            """;
+
 
     private static BigInteger S(in int a, in int b) => Combination(a + b, a);
 
@@ -26,7 +27,7 @@ public abstract class Part5
         return result;
     }
 
-    private static double ExpectedMeanRunA(in int a, in int b) 
+    private static double ExpectedMeanRunA(in int a, in int b)
         => 1.0 * (a * (b + 1)) / (a + b);
 
     private static double ActualMeanRunA(in int a, in int b, in int loop)

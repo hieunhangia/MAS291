@@ -2,8 +2,8 @@ namespace Question_3;
 
 public abstract class Part1
 {
-    public static void Result(in double a, in double b, in double x)
-        => Console.WriteLine($"Output of firstContact({a},{b},{x}) is {FirstContact(a, b, x)}");
+    public static string Result(in double a, in double b, in double x)
+        => $"Output of firstContact({a},{b},{x}) is {FirstContact(a, b, x)}";
 
     private static string FirstContact(in double a, in double b, in double x)
     {

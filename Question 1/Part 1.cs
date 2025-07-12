@@ -2,8 +2,8 @@ namespace Question_1;
 
 public abstract class Part1
 {
-    public static void Result(in double p, in int n)
-        => Console.WriteLine($"Toss({p}, {n}) = {Toss(p, n)}");
+    public static string Result(in double p, in int n)
+        => $"Toss({p}, {n}) = {Toss(p, n)}";
 
     private static string Toss(in double p, in int n)
     {
